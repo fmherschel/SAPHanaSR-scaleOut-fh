@@ -14,10 +14,3 @@ register) for two SAP HANA system replication sites.
 
 ## Building
 
-Running `make` will create a tarball with the sources.
-
-Additionally, it can commit the changes to the OBS, given that the `OBSPROJ` parameter is set and points to a valid local OBS package copy:
-``make commit OBSPROJ=~/dev/saphanasr_obs``
-
-Building the package locally is also possible via:
-``make build OBSPROJ=~/dev/saphanasr_obs OBSTARG=SLE_12_SP2``
